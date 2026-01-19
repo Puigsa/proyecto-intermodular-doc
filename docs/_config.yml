@@ -1,0 +1,7 @@
+title: Sistema de Gestión Escuela de Música
+description: Documentación del proyecto intermodular
+remote_theme: just-the-docs/just-the-docs
+plugins:
+  - jekyll-remote-theme
+show_downloads: false
+markdown: kramdown
