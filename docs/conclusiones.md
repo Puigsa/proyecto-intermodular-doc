@@ -3,18 +3,21 @@ title: Conclusiones
 nav_order: 6
 ---
 
-# 🧠 Conclusiones
+# Conclusiones
 
-## ⚠️ Dificultades encontradas
-- Gestión de roles y permisos de usuarios  
-- Integración del sistema de denuncias y reservas  
+## Dificultades encontradas
+- Gestión de roles y permisos para diferenciar administrador, profesorado y alumnado  
+- Diseño de una base de datos coherente que cubriera tanto la parte administrativa como la académica  
+- Definición del alcance del proyecto para evitar funcionalidades innecesarias  
 
-## 📚 Aprendizajes
-- Documentación técnica profesional en Markdown  
-- Control de versiones con Git/GitHub  
-- Publicación de documentación web con GitHub Pages  
+## Aprendizajes
+- Diseño y normalización de bases de datos relacionales  
+- Gestión de sesiones y control de accesos en aplicaciones web  
+- Documentación técnica profesional utilizando Markdown  
+- Uso de control de versiones con Git y GitHub  
+- Publicación de documentación mediante GitHub Pages  
 
-## 🔮 Posibles mejoras
-- Aplicación móvil para alumnos y profesores  
-- Notificaciones automáticas sobre eventos y calificaciones  
-- Panel de administración avanzado con estadísticas
+## Posibles mejoras
+- Incorporación de notificaciones automáticas sobre eventos, anuncios o cambios de horario  
+- Mejora del panel de administración con estadísticas básicas de alumnos y cursos  
+- Implementar sistema de reserva de aulas para estudio
