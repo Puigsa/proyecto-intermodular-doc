@@ -3,47 +3,60 @@ title: Uso
 nav_order: 4
 ---
 
-## 🚀 Uso de la plataforma
+## Uso de la plataforma
 
-Esta sección describe cómo interactúan los usuarios con el **Sistema de Gestión Escuela de Música**.
+Esta sección describe cómo interactúan los usuarios con el **Sistema de Gestión de la Escuela de Música**, diferenciando entre la parte pública y la privada de la aplicación.
 
 ## 👥 Tipos de usuario
 
 | Usuario       | Funcionalidades principales |
 |---------------|----------------------------|
-| Profesor      | Visualizar grupos de alumnos, publicar recursos educativos, registrar calificaciones |
-| Alumno        | Consultar información y calificaciones, gestionar matrícula |
-| General       | Acceder a información general de la escuela y calendario de eventos |
+| Administrador | Gestión de usuarios, cursos, matrículas y pagos |
+| Profesor      | Publicación de anuncios, recursos y consulta de horarios |
+| Alumno        | Consulta de información y recursos |
+| Visitante     | Acceso a información pública y eventos |
 
 ## Funcionalidades principales
 
-### 1️⃣ Información general de la escuela
-- Consultar plazos de matrícula y requisitos  
-- Ver la historia de la institución  
-- Consultar el calendario de eventos (audiciones, conciertos, talleres)  
-- Contactar con la escuela mediante formulario  
+### 1 - Información pública de la escuela
+Accesible sin necesidad de iniciar sesión:
+- Información general sobre la escuela y su actividad
+- Consulta de fechas y procedimientos de prematrícula
+- Visualización del calendario de eventos (conciertos, audiciones, actuaciones)
+- Acceso al formulario de prematrícula
+- Acceso al sistema de inicio de sesión
 
-### 2️⃣ Funcionalidades para profesores
-- Visualizar los grupos de alumnos asignados  
-- Publicar recursos educativos (PDF, enlaces, vídeos)  
-- Registrar calificaciones simples por asignatura o instrumento
-- Reserva de aulas  
+---
 
-### 3️⃣ Funcionalidades para alumnos
-- Consultar información publicada por los profesores  
-- Acceder a calificaciones y comentarios  
-- Gestionar matrícula para el nuevo curso (estado admitido/no admitido)
-- Reserva de aulas 
+### 2 - Funcionalidades del administrador
+El administrador es el encargado de la gestión general del centro:
+- Gestión de usuarios (alta, baja y modificación de alumnos y profesores)
+- Creación y gestión de cursos
+- Asignación de profesores a cursos
+- Revisión y gestión de solicitudes de prematrícula
+- Formalización de matrículas
+- Gestión del estado de los pagos
+- Publicación y gestión de eventos
 
+---
 
-## 📸 Ejemplo de uso: registrar calificación
+### 3 - Funcionalidades del profesorado
+Los profesores acceden a un área privada desde la que pueden:
+- Consultar los cursos que imparten
+- Visualizar horarios asociados a sus cursos
+- Publicar anuncios dirigidos al alumnado
+- Subir recursos digitales (PDF, partituras, enlaces o material audiovisual)
 
-### PHP
-```php
-// Registrar calificación de un alumno
-$calificacion = [
-  "alumno_id" => 123,
-  "materia" => "Guitarra",
-  "nota" => 8.5
-];
-insertarCalificacion($calificacion);
+---
+
+### 4 - Funcionalidades del alumnado
+Los alumnos disponen de un área privada donde pueden:
+- Consultar los cursos en los que están matriculados
+- Acceder a anuncios y recursos publicados por el profesorado
+- Consultar horarios de sus cursos
+
+---
+
+## Consideraciones de uso
+
+El sistema no incluye un módulo de calificaciones académicas, ya que la escuela de música se basa en una enseñanza práctica y presencial. La aplicación se centra en la gestión administrativa, organizativa y en la comunicación entre profesorado y alumnado.
