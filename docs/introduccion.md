@@ -6,14 +6,14 @@ nav_order: 2
 # Introducción
 
 ## Objetivo del proyecto
-Crear un **sistema de gestión digital** para una escuela de música de grado elemental, que centralice la información de alumnos, profesores, cursos y eventos, y facilite la comunicación y administración de la escuela.
+Desarrollar un **sistema de gestión digital** para una escuela de música de grado elemental orientado principalmente a la **gestión administrativa del centro**, centralizando la información de alumnado, profesorado, cursos, matrículas, pagos y eventos, y mejorando la organización interna de la escuela.
 
-## ❓ Problema que resuelve
-Antes, la gestión era manual y fragmentada, generando problemas como:
+## Problema que resuelve
+La gestión administrativa de la escuela se realizaba de forma manual y poco centralizada, lo que provocaba diversos problemas, entre ellos:
 
-- Confusión sobre plazos de matrícula y requisitos
-- Dificultad para acceder a calificaciones y recursos educativos
-- Ineficiencia en la organización de eventos y aulas
-- Falta de comunicación clara entre profesorado y alumnado
-- 
-La plataforma soluciona estos problemas ofreciendo un sistema **seguro, centralizado y accesible**.
+- Dificultad para controlar las matrículas y su estado  
+- Falta de un registro claro de alumnado y cursos  
+- Problemas en el seguimiento de pagos y plazos administrativos  
+- Comunicación poco estructurada entre administración, profesorado y alumnado  
+
+La plataforma propuesta aborda estas dificultades ofreciendo un sistema **centralizado, seguro y accesible**, que facilita la gestión diaria del centro y reduce errores administrativos, manteniendo un enfoque acorde a una enseñanza musical presencial.
